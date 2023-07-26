@@ -1,0 +1,9 @@
+﻿Pasos para crear Factory
+
+1 - Crear interface del Producto --> Tiene que contener los metodos que todos los productos tienen que tener
+
+2 - Crear una clase concreta para cada tipo de Producto --> Tienen que implementar la interfaz
+
+3 - Crear la clase Factory --> Tiene que tener un metodo creador del nuevo producto
+
+4 - En el codigo que utiliza los productos, llamamos a la fabrica para creae el producto
