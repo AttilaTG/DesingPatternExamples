@@ -1,0 +1,6 @@
+﻿Steps to create Factory
+
+1 - Create Product interface --> It must contain the methods that all products must have.
+2 - Create a concrete class for each type of Product --> They must implement the interface.
+3 - Create the Factory class --> It must have a method that creates the new product.
+4 - In the code that uses the products, we call the factory to create the product.
