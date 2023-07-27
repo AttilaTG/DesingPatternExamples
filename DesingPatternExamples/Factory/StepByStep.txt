@@ -4,3 +4,14 @@
 2 - Create a concrete class for each type of Product --> They must implement the interface.
 3 - Create the Factory class --> It must have a method that creates the new product.
 4 - In the code that uses the products, we call the factory to create the product.
+
+
+Here are some questions you should ask yourself if you are unsure whether or not to use the Factory design pattern:
+
+- Are there different types of objects that need to be created?
+- Do the objects need to be created based on user input?
+- Do the objects need to be created based on system conditions?
+- Do the objects need to be created based on the data that is available?
+- Do the objects need to be created based on the system configuration?
+
+If you answer "yes" to any of these questions, then the Factory design pattern may be a good option for you.
