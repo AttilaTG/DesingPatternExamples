@@ -1,20 +1,29 @@
 ﻿using DesingPatternExamples.AbstractFactory.Factories;
 using DesingPatternExamples.Factory;
+using DesingPatternExamples.Singleton;
 
-CellPhoneFactory factory = new CellPhoneFactory();
-
-ICellPhone myNewPhone = factory.CreateCellPhone("ios");
-myNewPhone?.DownloadApps("Whatsapp");
-
-ICellPhone myNewWorkPhone = factory.CreateCellPhone("android");
-myNewPhone?.MakePhotos();
+////
+///TODO: Beautify main program
+///
 
 
-ICellPhone myOldPhone = factory.CreateCellPhone("aaa");
-myOldPhone?.MakePhotos();
 
+void CreateProduct(CellPhoneFactory factory, string os) 
+{
+    ICellPhone myNewPhone = factory.CreateCellPhone(os);
+    myNewPhone?.DownloadApps("Whatsapp");
+    myNewPhone?.CallNumber(123456);
+    myNewPhone?.MakePhotos();
+}
 
-////////
+CellPhoneFactory factory = new();
+CreateProduct(factory, "android");
+CreateProduct(factory, "ios");
+CreateProduct(factory, "notValidOption");
+
+Console.WriteLine();
+///
+///Abstract factory
 ///
 
 
@@ -34,3 +43,10 @@ GetMakeDataFromFactory(new SamsungFactory());
 GetMakeDataFromFactory(new LGFactory());
 
 GetMakeDataFromFactory(new SonyFactory());
+Console.WriteLine();
+/// 
+/// Singleton
+/// 
+
+Singleton realSingleton =  Singleton.GetInstance();
+Singleton realSingleton2 = Singleton.GetInstance();
