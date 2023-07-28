@@ -1,6 +1,7 @@
 ﻿using DesingPatternExamples.AbstractFactory.Factories;
-using DesingPatternExamples.Factory;
-using DesingPatternExamples.Singleton;
+using DesingPatternExamples.CreationalDesingPatterns.AbstractFactory.Factories;
+using DesingPatternExamples.CreationalDesingPatterns.Factory;
+using DesingPatternExamples.CreationalDesingPatterns.Singleton;
 
 ////
 ///TODO: Beautify main program
