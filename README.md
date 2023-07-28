@@ -1,21 +1,21 @@
 # DesingPatternExamples
 
-Patterns in C#
-This repository contains examples of design patterns in C#. The patterns are organized into categories, and each pattern has a README file that describes the pattern and provides an example of how to implement it.
+## Patrones en C#
+Este repositorio contiene ejemplos de patrones de diseño en C#. Los patrones están organizados en categorías, y cada patrón tiene un archivo README que describe el patrón y proporciona un ejemplo de cómo implementarlo.
 
-Patterns
-The patterns in this repository include:
+Patrones
+Los patrones en este repositorio incluyen:
 
+## Patrones creacionales
 - Abstract Factory
-- Adapter
-- Builder
-- Chain of Responsibility
-- Command
-- Composite
-- Decorator
-- Facade
-- Factory Method (Done)
-- Flyweight
-- Strategy
-- Template Method
-- Visitor
+- Factory
+- Singleton
+
+## Patrones estructurales
+
+Work in progress
+
+## Patrones de comportamiento
+
+Work in progress
+
