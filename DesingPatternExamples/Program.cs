@@ -1,7 +1,7 @@
 ﻿using DesingPatternExamples.AbstractFactory.Factories;
-using DesingPatternExamples.CreationalDesingPatterns.AbstractFactory.Factories;
-using DesingPatternExamples.CreationalDesingPatterns.Factory;
-using DesingPatternExamples.CreationalDesingPatterns.Singleton;
+using DesingPatternExamples.CreationalDesingPatterns.Builder;
+using DesingPatternExamples.Factory;
+using DesingPatternExamples.Singleton;
 
 ////
 ///TODO: Beautify main program
@@ -51,3 +51,10 @@ Console.WriteLine();
 
 Singleton realSingleton =  Singleton.GetInstance();
 Singleton realSingleton2 = Singleton.GetInstance();
+
+///
+/// Builder
+///
+
+BuilderClient builderClient = new BuilderClient();
+builderClient.BuildSomeThing();
