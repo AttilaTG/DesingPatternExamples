@@ -1,11 +1,11 @@
-﻿**Pasos para crear una Factory**
+﻿# Pasos para crear una Factory
 
 1. Crea una interfaz Product **(ICellPhone)** --> Debe contener los métodos que todos los productos deben tener.
 2. Crea una clase concreta para cada tipo de Product **(Android, IOS)** --> Deben implementar la interfaz.
 3. Crea la clase Factory **(CellPhoneFactory)** --> Debe tener un método que crea el nuevo producto.
 4. En el código que utiliza los productos, llamamos a la fábrica para crear el producto.
 
-Aquí hay algunas preguntas que debes hacerte si no estás seguro de si usar o no el patrón de diseño Factory:
+## Aquí hay algunas preguntas que debes hacerte si no estás seguro de si usar o no el patrón de diseño Factory:
 
 - ¿Hay diferentes tipos de objetos que deben crearse?
 - ¿Los objetos deben crearse en función de la entrada del usuario?
