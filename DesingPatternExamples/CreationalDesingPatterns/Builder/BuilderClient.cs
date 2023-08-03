@@ -15,7 +15,7 @@ namespace DesingPatternExamples.CreationalDesingPatterns.Builder
         {
             _director = new Director();
         }
-        public void BuildSomeThing()
+        public void Demo()
         {
             MakeWarehouse(_director);
 
