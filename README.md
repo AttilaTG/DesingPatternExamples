@@ -3,7 +3,6 @@
 ## Patrones en C#
 Este repositorio contiene ejemplos de patrones de diseño en C#. Los patrones están organizados en categorías, y cada patrón tiene un archivo README que describe el patrón y proporciona un ejemplo de cómo implementarlo.
 
-Patrones
 Los patrones en este repositorio incluyen:
 
 ## Patrones creacionales
